@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-from main import *
+from index import *
 
 forms = """
     <div><input type="text" id="input">

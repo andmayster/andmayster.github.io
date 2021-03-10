@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-from main import *
+from index import *
 import cgi
 
 func_hidden = """<script type="text/javascript">
