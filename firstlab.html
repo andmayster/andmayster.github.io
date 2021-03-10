@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+        <html>
+        <head>
+            <meta charset="utf-8">
+            <link rel="stylesheet" href="/css/main.b4144757.chunk.css">
+            <title>Method Shabloniv</title>
+        </head>
+        <body>
+ <center><h1>Laboratorni roboti</h1></center>
+        <center><h2>Shabloni ob`ektno-orientovanogo modeluvannya</h2></center>
+        <center><h3>Khomenko Andrii</h3></center>
+
+
+<center>
+<a aria-current="page" class="link active" href="index.html">Main page</a>
+<a class="link" href="/firstlab.html">Lab #1</a><a class="link" href="secondlab.html">Lab #2</a>
+<a class="link" href="/thirdlab.html">Lab #3</a>
+<a class="link" href="/fourth.html">Lab #4</a>
+</center>
+
+
+
+
+</body>
+        </html>
+<div className="contentWrap">
+        <div style="font-size:35px; border:1px solid black; padding:5px; width:350px; background-color:whitesmoke">Task: Dev dialog window</div>
+        <button onclick="showHide('window')" class="dopinfo">Show/hide window dialog</button>
+        <div className="content" id="window" style="display:none; margin-top:50px; font-size:25px; border:1px solid black; padding:5px; width:550px; background-color:whitesmoke">
+                Sistema monítoringu servísív kvalífíkovanikh nadavateley elektronnykh elektronnykh dovírchikh poslug Ukraí̈ni
+            </div>
+        </div>
+
+<script type="text/javascript">
+function showHide(element_id) {
+    //Если элемент с id-шником element_id существует
+    if (document.getElementById(element_id)) {
+        //Записываем ссылку на элемент в переменную obj
+        var obj = document.getElementById(element_id);
+        //Если css-свойство display не block, то:
+        if (obj.style.display != "block") {
+            obj.style.display = "block"; //Показываем элемент
+        }
+        else obj.style.display = "none"; //Скрываем элемент
+    }
+    //Если элемент с id-шником element_id не найден, то выводим сообщение
+    else alert("Элемент с id: " + element_id + " не найден!");
+}
+</script>
